@@ -4,7 +4,7 @@
 
 /* Background */
 body {
-  background-image: url(/assets/pattern-background-mobile.svg);
+  background-image: url(./assets/pattern-background-mobile.svg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
