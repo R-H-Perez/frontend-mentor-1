@@ -1,7 +1,98 @@
-/* Decent Defaults */
+* {
+  font-family: sans-serif;
+}
 
-img,
-video {
-  width: 100%;
-  height: auto;
+/* Background */
+body {
+  background-image: url(/assets/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position-y: -250px;
+  background-color: #e0e8ff;
+}
+
+/* "Made by Richard Perez" text */
+#Credit {
+  position: relative;
+  bottom: -350px;
+  text-align: center;
+}
+
+/* Attribuations towards the entire card */
+article.card {
+  text-align: center;
+  background-color: white;
+  max-width: 350px;
+  margin: auto;
+  margin-top: 10%;
+  box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4%;
+  overflow: hidden;
+}
+
+/* "Order Summary" text */
+article.card h1 {
+  font-weight: 800;
+  color: #1c294b;
+}
+
+/* "You can now listen to millions of..." text */
+article.card p {
+  color: #7d87a2;
+}
+
+/* Inner Card */
+article.card div {
+  background-color: #f8f9fe;
+  display: block;
+  width: fit-content;
+  height: fit-content;
+  align-items: auto;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+}
+
+/* Overall text inside the Inner Card */
+article.card div ul {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+/* "Annual Plan, $59.99/year" text */
+article.card div ul p {
+  color: #7d87a2;
+  padding-left: 20px;
+}
+
+/* "Change" text */
+article.card div ul a {
+  color: #796deb;
+  padding-left: 40px;
+  font-size: 80%;
+  font-weight: 800;
+}
+
+/* Attribuations towards the "Proceed to Payment" button */
+#Proceed_to_Payment {
+  background-color: #382ae1;
+  color: white;
+  border-radius: 0.5rem;
+  border-color: transparent;
+  font-weight: 600;
+  padding: 10px 70px;
+  box-shadow: 0 0.25rem 1rem 0 rgba(0, 0, 0, 0.25);
+}
+
+/* Attribuations towards the "Cancel Order" button */
+#Cancel_Order {
+  background-color: transparent;
+  color: #7d87a2;
+  border-radius: 0.5rem;
+  border-color: transparent;
+  margin-bottom: 5%;
+  font-weight: 600;
 }
